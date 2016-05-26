@@ -1,0 +1,163 @@
+
+body {
+background-color: #d4cd35;
+}
+
+header {
+
+}
+
+main {
+    /* I wouldn't recommend applying any styles to this
+       section as the 'main' element is not supported
+       in all browsers yet. */
+}
+
+footer {
+
+}
+
+.navbar {
+ background-color: #e3774e;
+}
+.navbar a{
+   color: white;
+
+}
+navbar.center {
+    text-align: center;
+}
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** base styles ***/
+
+h1 {
+
+}
+h1.about {
+text-align: center;
+text-transform: uppercase;
+font-family: 'Lora', serif;
+
+}
+h2 {
+text-transform: uppercase;
+}
+
+h2.about {
+text-align: center;
+text-transform: uppercase;
+font-family: 'Lora', serif;
+
+}
+
+h3 {
+
+}
+
+h3.center{
+   text-align: center;
+   text-transform: uppercase;
+   font-family: 'Lora', serif;
+
+}
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+p{
+   text-align: center;
+}
+p.about {
+text-indent: 50px;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img.product {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:  300px;
+    height: 300px;
+}
+
+img.logo
+{
+   height: 150px;
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+  padding:none;
+}
+/*** link styles ***/
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+
+.navbar a:hover, .navbar a:active {
+    background-color: #6ba6e0;
+}
+
+a:active {
+
+}
+
+
+/*** form styles (coming soon) ***/
+input{
+   text-align: center;
+}

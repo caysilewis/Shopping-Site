@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Caysi's Corner Thanks</title>
+<link rel="icon" href="img/apple.ico">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/grid_6.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/cart.css">
+<link rel="stylesheet" href="css/form.css">
+<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+</head>
+
+<body onload="loadCart()">
+    
+    
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="full">
+    <div id="cart_links">
+    <a href="cart.html"><img class="cart_icon" src="img/cart_icon.png" alt="cart icon" /></a>
+    <span class="cart_link"><a id="cart_link" href="#">Shopping Cart</a></span> <br />
+    <span class="item_count">Items (<span id="item_count">0</span>)</span>
+    <span class="checkout_link"><a id="checkout_link" href="#">Checkout</a></span>
+</div>
+    </div>
+        </div>
+            </div>
+     <div class="container">
+        <div class="row">
+        <div class="full">
+            <a href="index.html">   <img class="logo" src="img/logo.png" alt="Logo"></a>
+                </div>
+                </div>
+                </div>
+<div class="container">
+    <div class="row">
+        <div class="full">
+            <br>
+            <nav class="navbar center">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="elementary.html">Elementary School</a></li>
+                        <li><a href="middle.html">Middle School</a></li>
+                        <li><a href="high.html"> High School</a></li>
+                    </ul>
+                </nav>
+                </div>
+       
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="full">
+<body onload="loadCart()">
+
+
+<h1 class="about">Checkout</h1>
+
+<p>Please fill out the following form so that we may deliver your shipment!</p>
+
+<form class="pure-form pure-form-aligned" action="thanks.html">
+    <fieldset>
+  <div class="pure-control-group">
+  First Name: <input type="text" name="name" placeholder="First Name" required> Last Name: <input type="text" name="name" placeholder="Last Name"required>
+  </div><br>
+  <div class="pure-control-group">
+  Address:  <input type="text" name="address" placeholder="Address" required>
+  </div><br>
+  <div class="pure-control-group">
+  City: <input type="text" name="city" placeholder="City" required> State:  <input type="text" name="state" placeholder="State" required>
+
+  Zip:  <input type="text" name="zip" placeholder="Zip Code" pattern="[0-9]{5}" required> <br>
+   </div><br>
+  <div class="pure-control-group">
+  Email:  <input type="email" name="email" placeholder="Email" required> 
+  Phone: <input type="text" name="phone" placeholder="Phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required> 
+   </div><br>
+  <div class="pure-control-group">
+  Credit Card Number:  <input type="text" name="card_num" placeholder="Credit Card" pattern="[0-9]{13,16}" required> 
+   </div><br>
+  <div class="pure-control-group">
+  CVN: <input type="text" name="cvn" placeholder="CVN" pattern="[0-9]{3}" required> 
+   </div><br>
+  <div class="pure-control-group">
+  Expiration Date:  <select name="month" required>
+  <option value="jan">01</option>
+  <option value="feb">02</option>
+  <option value="mar">03</option>
+  <option value="apr">04</option>
+  <option value="may">05</option>
+  <option value="june">06</option>
+  <option value="july">07</option>
+  <option value="aug">08</option>
+  <option value="sep">09</option>
+  <option value="oct">10</option>
+  <option value="nov">11</option>
+  <option value="dec">12</option>
+</select>
+  /
+  <select name="year" required>
+  <option value="16">16</option>
+  <option value="17">17</option>
+  <option value="18">18</option>
+  <option value="19">19</option>
+  <option value="20">20</option>
+  <option value="21">21</option>
+  <option value="22">22</option>
+  <option value="23">23</option>
+  <option value="24">24</option>
+</select>
+  
+   </div><br>
+  <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+    </div>
+    </div>
+    </div>
+
+    <div class="container">
+    <div class="row">
+    <div class="full">
+        <p>&copy; Caysi Lewis 2016</p>
+    </div>
+    </div>
+    </div>
+    
+    <!-- end carousel --> 
+
+
+<!-- JavaScript -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script>
+    $('#my-carousel').owlCarousel({
+       autoplay : true,
+       autoplayHoverPause : true,
+       autoplayTimeout : 3000,
+       dots : true,
+       nav : false,
+       items : 3,
+       loop : true,
+       margin: 10,
+       
+    })
+</script>
+
+</body>
+</html>
